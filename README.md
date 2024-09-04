@@ -23,7 +23,7 @@ In older Unity versions, or if you don't want to open Unity, modify your Package
 
 Once installed, you can use AsapTime by subscribing to it's update event on any object, even non-monobehaviour objects.
 You have access to `AsapTime.DeltaTime` and `AsapTime.Time` just like the regular Update() method,
-You can also enable a `IsInFixedUpdate` field by uncommenting the related code in the file
+you can also enable a `IsInFixedUpdate` field by uncommenting the related code in the file
 
 ```cs
 public class SomeClass : MonoBehaviour {
