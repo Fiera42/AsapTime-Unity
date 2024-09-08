@@ -47,3 +47,7 @@ public class SomeClass : MonoBehaviour {
     }
 }
 ```
+
+## Known issues
+
+- Unity's script execution order is not implemented, the objects are simply called by suscribe order
