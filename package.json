@@ -2,7 +2,7 @@
   "name": "com.fiera.asaptime",
   "version": "2.0.0",
   "displayName": "AsapTime",
-  "description": "A custom update method called on Update() AND FixedUpdate() \n\nSuscribe to the OnAsapUpdate event (AsapTime.OnAsapUpdate += methodName; // See https://discussions.unity.com/t/how-to-use-an-action/588825/8 for more)\n -> Dont forget to un-suscribe too (AsapTime.OnAsapUpdate -= methodName; )\n\n Made using Baste's PlayerLoopInterface (https://github.com/Baste-RainGames/PlayerLoopInterface)",
+  "description": "AsapTime is an update method just like Update() and FixedUpdate(),\n it is called before every Update() or FixedUpdate().\n This class allow you to update your code as often as possible \n without compromising anything thanks to it's own DeltaTime\n\n # HOW TO -> https://github.com/Fiera42/AsapTime-Unity/blob/master/README.md#quick-use\n\n Made using Baste's PlayerLoopInterface (https://github.com/Baste-RainGames/PlayerLoopInterface)",
   "unity" : "2022.3",
   "author": {
     "name": "Fiera",
