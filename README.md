@@ -48,7 +48,7 @@ public class SomeClass : MonoBehaviour {
 }
 ```
 
-## Revelent informations
+## Relevant informations
 
 - If the new input system is enabled in the player settings, a config file will be generated in `Assets/Resources/` when running your project for the first time. It allow -or not- AsapUpdate to update the input system. If you are reading inputs during
 AsapUpdate please enable this feature, but if you are reading inputs somewhere else, like "Update" for example, disable it.
